@@ -1,0 +1,36 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.info-tag {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FF9B00;
+}
+
+@media screen and (max-width: 600px) {
+    .info-tag {
+        font-size:5vw;
+    }
+}
+
+.login-button {
+    background-color: #3273FA;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Inter, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #2e5be2;
+    color: white;
+    transform: scale(1.05);
+}

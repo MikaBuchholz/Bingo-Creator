@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins&display=swap');
+
+body {
+    background-color: #1c1c38;
+    font-family: Inter, sans-serif;
+}
+  
+  .Navbar {
+    background-color: #17172e;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .Toolbar {
+    display: flex;
+    min-height: 85px;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .Logo {
+    margin-right: 10px;
+  }
+  
+  .Title {
+    flex-grow: 1;
+  }
+
+  .logout-button {
+    background-color: rgb(159, 6, 6);
+    border: none;
+    color:white;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .logout-button:hover {
+    background-color: rgb(140, 5, 5);
+  
+    transform: scale(1.05);
+  }
+
+  .route-button {
+    background-color: purple;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: Inter, sans-serif;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    min-width: 5vw;
+  }
+
+  .route-button:hover {
+    background-color: rgb(105, 2, 105);
+  
+    transform: scale(1.05);
+  }
+
+  
+
+  .route-wrapper {
+   display: flex;
+   gap: 1em;
+  }
+
+  @media screen and (max-width: 800px) {
+    .route-button {
+      font-size: 2vw;
+    }
+    .logout-button {
+      font-size: 2vw;
+    }
+  }
+    
+  
