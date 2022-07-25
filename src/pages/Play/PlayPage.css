@@ -1,252 +1,238 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins&display=swap");
 
 .input-input-container-wrapper {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .input-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    gap: 1em;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1em;
+}
 
 .search-input {
-    text-align: center;
-    border: none;
-    background-color: #fafafa;
-    padding: 10px;
-    margin: 0;
-    color: black;
-    font-family: Inter;
-    font-size: 1.5vw;
-    cursor: inherit;
-    line-height: inherit;
-    outline: none;
-    border-radius: 3px;
+  text-align: center;
+  border: none;
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 0;
+  color: black;
+  font-family: Inter;
+  font-size: 1.5vw;
+  cursor: inherit;
+  line-height: inherit;
+  outline: none;
+  border-radius: 3px;
 }
 
 .play-button {
-    background-color: #3273FA;
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 1.5vw;
-    font-family: Inter;
-    color: white;
-    cursor: pointer;
+  background-color: #3273fa;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1.5vw;
+  font-family: Inter;
+  color: white;
+  cursor: pointer;
 }
 
 .play-button:hover {
-    background-color: #2e5be2;
-    color: white;
-    transform: scale(1.05);
+  background-color: #2e5be2;
+  color: white;
+  transform: scale(1.05);
 }
 
-@media  screen and (max-width: 1300px) {
-    .search-input {
-        font-size: 3vw;
-    }
-    .play-button {
-        font-size: 3vw;
-    }
+@media screen and (max-width: 1300px) {
+  .search-input {
+    font-size: 3vw;
+  }
+  .play-button {
+    font-size: 3vw;
+  }
 }
-    
-
 
 .p-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 0.5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5vh;
 }
 
 .p-tag {
-    font-family: Inter, sans-serif;
-    font-size: 1.4vw;
-    color: purple;
-    font-weight: bold;
-    animation: smallBig 0.5s;
+  font-family: Inter, sans-serif;
+  font-size: 1.4vw;
+  color: purple;
+  font-weight: bold;
+  animation: smallBig 0.5s;
 }
 
 .p-tag-2 {
-    font-family: Inter, sans-serif;
-    font-size: 1.4vw;
-    color: purple;
-    font-weight: bold;
+  font-family: Inter, sans-serif;
+  font-size: 1.4vw;
+  color: purple;
+  font-weight: bold;
 }
 
 .creator-tag {
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-    font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: Inter, sans-serif;
 }
 
 @keyframes smallBig {
-    0% {
-        transform: scale(1);
-    }
-    30% {
-        transform: scale(1.05);
-    }
-    50% {
-        transform: scale(1);
-    }
-    70% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
-    
+
 @media only screen and (max-width: 800px) {
-   .p-tag {
-         font-size: 2.5vw;
-   }
+  .p-tag {
+    font-size: 2.5vw;
+  }
 
-   .p-tag-2 {
-            font-size: 2.5vw;
-   }
+  .p-tag-2 {
+    font-size: 2.5vw;
+  }
 
-   input {
-            font-size: 3vw;
-   }
+  input {
+    font-size: 3vw;
+  }
 
-   button {
-            font-size: 3vw;
-   }
+  button {
+    font-size: 3vw;
+  }
 }
-
-
 
 .bingo-title {
-    font-family: Inter, sans-serif;
-    font-size: 2.5vw;
-    color: white;
-    font-weight: bold;
-    background-color: #3273FA;
-    padding: 3vh;
-    border-radius: 3px;
-    margin-top: 10vh;
+  font-family: Inter, sans-serif;
+  font-size: 2.5vw;
+  color: white;
+  font-weight: bold;
+  background-color: #3273fa;
+  padding: 3vh;
+  border-radius: 3px;
+  margin-top: 10vh;
 }
 
 .info-container {
-    width: 25%;
-    height: 30vh;
-    margin-top: 2vh;
-    border-radius: 3px;
+  width: 25%;
+  height: 30vh;
+  margin-top: 2vh;
+  border-radius: 3px;
 
-    background-color: #f87878;
+  background-color: #f87878;
 }
 
 .bingo-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 .share {
-    font-family: Inter, sans-serif;
-    font-weight: bold;
-    font-size: 2vw;
-    text-align: center;
-    color: white;
-    text-decoration: underline;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  text-align: center;
+  color: white;
+  text-decoration: underline;
 }
 
-
 .share-button {
-    background-color: #3273FA;
-    border: none;
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 1vw;
-    font-family: Inter;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 1vh;
-  
+  background-color: #3273fa;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 1vw;
+  font-family: Inter;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1vh;
 }
 
 .share-button:hover {
-    background-color: #2e5be2;
-    transform: scale(1.05);
+  background-color: #2e5be2;
+  transform: scale(1.05);
 }
 
 .animation-1 {
-    animation-name: fadeIn;
-    animation-delay: 700ms;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-    
+  animation-name: fadeIn;
+  animation-delay: 700ms;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .my-anchor {
-    margin-top: 2vh;
-    font-size: 1vw;
-    color: white;
-    padding: 10px;
-    border-radius: 3px;
-    font-family: Inter;
-    margin-top: 2vh;
+  margin-top: 2vh;
+  font-size: 1vw;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  font-family: Inter;
+  margin-top: 2vh;
 }
 
 .my-anchor:hover {
-    color: #3273FA;
-    background-color: rgb(237, 234, 234);
+  color: #3273fa;
+  background-color: rgb(237, 234, 234);
 }
 
 .animation-2 {
- 
-    animation-name: fadeIn;
-    animation-delay: 1200ms;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-   
-    
+  animation-name: fadeIn;
+  animation-delay: 1200ms;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .font-custom {
-    font-size: 0.7vw;
-    background-color: #b04c4c;
+  font-size: 0.7vw;
+  background-color: #b04c4c;
 }
 
 .font-custom:hover {
-    background-color: #923f3f;
-    color: white;
-    transform: scale(1.05);
+  background-color: #923f3f;
+  color: white;
+  transform: scale(1.05);
 }
 
 .playing-button {
-    margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 .animation-3 {
-   
-    animation-name: fadeIn;
-    animation-delay: 1700ms;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-    opacity: 0;
+  animation-name: fadeIn;
+  animation-delay: 1700ms;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 /* fade in animation*/
 @keyframes fadeIn {
-
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
-

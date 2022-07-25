@@ -1,19 +1,18 @@
 .creds {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: Inter, sans-serif;
-    color: white;
-    gap: 2vw;
-    font-size: 1.5vh;
-    margin-top: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter, sans-serif;
+  color: white;
+  gap: 2vw;
+  font-size: 1.5vh;
+  margin-top: 3vh;
 }
 .pad {
-    padding-top: 0.4vw;
+  padding-top: 0.4vw;
 }
 
 .custom {
-    margin-top: 1vh;
-
+  margin-top: 1vh;
 }
